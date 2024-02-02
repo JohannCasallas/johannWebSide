@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Johann Casallas Webside</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU HEADER -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Johann Casallas</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="select()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#resume" onclick="select()">RESUME</a></li>
+                    <li><a href="#briefcase" onclick="select()">BRIEFCASE</a></li>
+                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="home">
+        <div class="content-banner">
+            <div class="content-img">
+                <img src="img/profile.png" alt="">
+            </div>
+            <h1>JOHANN CASALLAS</h1>
+            <h2>Junior Developer</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ABOUT ME -->
+    <section id="aboutme" class="aboutme">
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p><span>Hello, I'm Johann Casallas.</span> Junior front-end developer with strong backend skills. Graduated
+                as a Software Development Technologist, I have a solid experience in web application development. My
+                expertise includes designing intuitive user interfaces and effectively implementing web services on the
+                backend. I stand out for my ability to tackle complex challenges and find effective solutions.</p>
+            <div class="row">
+                <!-- Interests -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="content-Interests">
+                        <div class="interests">
+                            <i class="fa-solid fa-pen"></i>
+                            <span>DRAW</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-brands fa-android"></i>
+                            <span>ANDROID</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>SOCCER</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LITERATURE</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-guitar"></i>
+                            <span>GUITAR</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-drum"></i>
+                            <span>DANCE</span>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- personal information -->
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            24-07-1998
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +57 3143187615
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            casallasbecerrajohann@gmail.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Carrera 64 #5a - 22, Bogota - Colombia
+                        </li>
+                        <li>
+                            <strong>Post</strong>
+                            <span>JUNIOR DEVELOPER</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="pdf/JohannCasallasCV.pdf" download>
+                <button> Download CV <i class="fas fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>TypeScript</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>REACT</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node.js</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="skill-bar">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- resume SECTION -->
+    <section id="resume" class="resume">
+        <div class="content-section">
+            <h2>resume</h2>
+            <div class="row">
+                <div class="col left">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Software Development Technologist</h4>
+                        <span class="homes">CUN: Corporación Unificada Nacional de Educación Superior</span>
+                        <span class="date">October - 2023</span>
+                        <p>A Software Development Technologist is a professional specialized in the creation and
+                            maintenance of software. This academic title is obtained by completing specific training in
+                            software development, which covers technical skills in programming, system design, project
+                            management and problem solving in the field of information technology. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Professional Information Systems Technician</h4>
+                        <span class="homes">TEINCO | Corporación Tecnológica Industrial Colombiana</span>
+                        <span class="date">November – 2022</span>
+                        <p>A Professional Technician in Information Systems is a professional with specialized knowledge
+                            in the implementation and management of information systems. This academic title is obtained
+                            through technical training that covers aspects such as network configuration, technical
+                            support, and the development and maintenance of computer systems.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingles B1</h4>
+                        <span class="homes">British Council Colombia</span>
+                        <span class="date">June - 2023</span>
+                        <p>I can understand and use everyday phrases and expressions, engage in simple conversations on
+                            familiar topics, write simple texts, and comprehend basic information in specific
+                            situations.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col right">
+                    <h3>Work experience</h3>
+                    <div class="item der">
+                        <h4>Junior Developer</h4>
+                        <span class="homes">INFOTRACK S.A.</span>
+                        <span class="date">June – 2022 / January – 2024</span>
+                        <p>Redesigned and enhanced key components on the front-end, implemented performance improvements
+                            in APIs using RESTful principles, optimized SQL queries for a more efficient database, and
+                            facilitated API comprehension by introducing Swagger. His skills include front-end
+                            development with React and TypeScript, as well as back-end development using C#, ASP.NET
+                            Core, and Entity Framework Core. He also excels in performance optimization, documentation
+                            with Swagger/OpenAPI, and design and data management with SQL.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>development practitioner</h4>
+                        <span class="homes">INFOTRACK S.A.</span>
+                        <span class="date">January - 2022 / June 2022</span>
+                        <p>Implemented responsive and attractive designs on the front-end, ensuring an optimal
+                            experience on various devices. Developed and deployed basic functionalities in web
+                            applications, gaining practical experience in complete development cycles. Acquired basic
+                            experience with version control systems, using Git and Azure. Additionally, developed
+                            familiarity with fundamental database concepts such as SQL and data modeling.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- briefcase SECTION-->
+    <section id="briefcase" class="briefcase">
+        <div class="content-section">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>MovilNav</h3>
+                        <p>Web application to manage routes</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Smart Route</h3>
+                        <p>is a real-time route monitoring and management platform</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Smart Work</h3>
+                        <p>SMART WORK is a platform that allows you to manage your personnel in the field</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Smart Stock</h3>
+                        <p>web application to manage warehouses</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="content-section">
+            <h2>CONTACT</h2>
+            <div class="row">
+                <!-- Form -->
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send Message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Map -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bogota, Colombia, Puente Aranda
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Carrera 64 # 5a - 22
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
